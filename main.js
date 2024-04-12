@@ -79,3 +79,4 @@ listing.then(function(data) {
                .text("Airbnb Ratings Distribution in Boston");
 
 });
+
