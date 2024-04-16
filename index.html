@@ -47,7 +47,7 @@
     }
 
 	.bar {
-      fill: steelblue;
+      fill: #6793b0ff;
     }
   </style>
 </head>
@@ -63,7 +63,7 @@
 	<center><img src="images/BostonImage.png" alt="image of boston" height = 300px, width = 100% ></center> 
   <h2 id="introduction">Introduction</h2>
   <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue.</p>
-  
+  <p>References: </p>
   <h2 id="section1">Rating Distribution Histogram</h2>
   <center>
 	<svg id="plot", width="500" height="400"></svg>
@@ -79,11 +79,11 @@
     
   <h2 id="section3">Neighborhood Ratings Boxplot</h2>
   <center><embed type="text/html" src="boxplot.html" width="700" height="500"></center>
-  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue.</p>
-
-	<h2 id="section4">Interactive Neighborhood Map</h2>
+  <p>This static comparative boxplot visualization provides the user with information not only about the relative average ratings of different neighborhoods but also the spread of ratings. The outliers are marked with dots whereas the averages and quartiles are marked by boxes. While a user could initially rank neighborhoods based on simply average rating, that is not the full story, because some neighborhoods are not consistent in ratings. One of the main takeaways is that for a host or traveler, Longwood Medical may be the most reliable, well rated area to aim for. In this visualization the points, bars and lines are the marks and the position is the channel used to convey the neighborhoods with the best ratings. It addresses the task of diving into the distribution of ratings by breaking down the distribution on a neighborhood by neighborhood basis.</p>
+	
+  <h2 id="section4">Interactive Neighborhood Map</h2>
   <embed type="text/html" src="review-by-neighborhoood.html" width=100% height="400">
-  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue.</p>
+  <p>For some potential visitors or prospective hosts, exploring Boston geographically might be easier than by neighborhood name. This interactive map allows users to view overall ratings in a geographic way. There are two levels of interaction present: the ability to change the zoom on the map and tooltips. Users can zoom in and out and move the map around to get a closer look at what neighborhoods they are interested in. When viewers click on a neighborhood on the map a tooltip with the neighborhood's name and average rating pops up, giving exact numbers to complement the color coding. This gradient color scheme and the neighborhoods positions are the channels in this visualization and the marks are the shape of the neighborhoods. This visualization addresses the task of identifying which neighborhoods have the highest ratings in aggregate, which is important context for potential visitors. One primary takeaway from this visualization is that ratings tend to get better as one moves away from center-city.</p>
 
 	<h2 id="section5">Interactive Scatter Plot</h2>
   <center><embed type="text/html" src="scatterplot.html" width="500" height="400"></center>

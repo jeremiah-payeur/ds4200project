@@ -56,7 +56,7 @@ listing.then(function(data) {
            // Add x-axis label
            svg.append("text")
                .attr("class", "axis-label")
-               .attr("transform", `translate(${width / 2},${height + margin.bottom / 2})`)
+               .attr("transform", `translate(${width / 2},${height + 1.5*margin.bottom / 2})`)
                .style("text-anchor", "middle")
                .text("Rating");
    
